@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c391db9fea.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    #hero {
+        background-image: linear-gradient(rgba(237, 242, 246, 0.549), rgba(103, 219, 247, 0.826)), url("shop1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <section id="header">
+        <a href="#"><img class="logo" src="https://seeklogo.com/images/W/wish-new-2022-logo-C4BBBD2AF6-seeklogo.com.png"
+                alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="#home.html">Home</a></li>
+                <li><a href="#product1" class="active">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <span id="cartno" style="background-color: aqua;">0</span>
+            </ul>
+        </div>
+    </section>
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>save more with coupons & up to 70% off!</p>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>New Modern Designs</p>
+        <div class="product-container">
+
+            <!-- <div class="product">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=1000,height=1500,quality=75,format=auto/in-resources/6c57599f-2c43-4c82-806a-e07c3410f5d3/Images/ProductImages/Source/phulkari15795ss20red-1.jpg"
+                    alt="">
+                <div class="description">
+                    <h5>Red Cotton A-Line Kurta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi71RKq2ml489p7kTR99PP2WKQJxER2a6b1UqIcWkWzn5Mc_RrV5Wh8JXytulcgHsSv34&usqp=CAU"
+                    alt="">
+                <div class="description">
+                    <h5>Pink Self Design Pathani Kurta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹600</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://5.imimg.com/data5/ECOM/Default/2022/12/MB/XS/PQ/14340039/1656818325227-ctn-red-originnm80prcnt-250x250.jpg"
+                    alt="">
+                <div class="description">
+                    <h5>Pure Cotton Material Kurta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹560</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEI65SZHcGD592v7eAiNDW_Z-0asQzIy9mtu0i_OK6oTBCAvVDORIKzcq0D1ZBdayb7VE&usqp=CAU"
+                    alt="">
+                <div class="description">
+                    <h5>Pink Cotton Straight Kurta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹450</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmp6SBlrUiNAZn7PRa5ewZW1Kj2hVBMNPzRBJ2mjrQLEwnVeDnmB9upZNJ2W89PgXNl3M&usqp=CAU"
+                    alt="">
+                <div class="description">
+                    <h5>Pink Cotton Printed Kurta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹800</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product" data-name="p-6">
+                <img src="https://rukminim2.flixcart.com/image/450/500/xif0q/kurta/i/d/n/3xl-nsg-358-saabhi-original-imaghrb4t4wudgfp.jpeg?q=90&crop=false"
+                    alt="">
+                <div class="description">
+                    <h5>Women Printed Ethnic Dress</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹425</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://rukminim1.flixcart.com/image/832/832/kzzw5u80/kurta/1/r/q/xxl-new-heartloom-original-imagbvmdjs7fkftk.jpeg?q=70"
+                    alt="">
+                <div class="description">
+                    <h5>Women Embroidered Kurta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹395</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfY4B0OIiMKS-Tfju0tJ296EYMkgU_1AuLCif6Hznibt_Y2_5LKMqonus-yN5239cIIc&usqp=CAU"
+                    alt="">
+                <div class="description">
+                    <h5>Yellow Embroidered Kurti</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹999</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div> -->
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>New Modern Designs</p>
+        <div class="product-container">
+            <div class="product">
+                <img src="https://i.pinimg.com/1200x/a0/b7/81/a0b78155e128203f827f5977fde29021.jpg" alt="">
+                <div class="description">
+                    <h5>Lehenga Choli for Girl| Sea Green Silk</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹2000</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://cdn.shopify.com/s/files/1/1979/4335/products/IndianGreyDigitalPrintedLehengaCholiWithLaceAndBorderDupatta_Mehendi_CeremonyWeddingEngagementCocktailReceptionExclusive_1024x1024@2x.jpg?v=1662114387"
+                    alt="">
+                <div class="description">
+                    <h5>Indian Grey Digital Printed Lehenga Choli</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹2799</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://cdn.sareeka.com/image/data2019/organza-grey-designer-lehenga-choli-111984.jpg" alt="">
+                <div class="description">
+                    <h5>Organza Grey Designer Lehenga Choli</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹7600</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGsZs97wQ3JWufw0VWcd6mtr0rsHf0AvAhdP8xJuwwhaYkvlxjxycTOgIycglLDJXNP4&usqp=CAU"
+                    alt="">
+                <div class="description">
+                    <h5>Grey Full Heavy Mirror Work Designer Party Wear Lehenga Choli
+                    </h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹7500</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://www.vastrey.com/media/catalog/product/cache/8c4376bfcec199b8e0c28782e545dfec/7/9/7905-1.jpg"
+                    alt="">
+                <div class="description">
+                    <h5>Grey Color Crepe Material Sequins Work Lehenga With Net Dupatta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹6500</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://assets.shopkund.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/p/r/prq8565-grey-net-lehenga-choli-lc2813.jpg"
+                    alt="">
+                <div class="description">
+                    <h5>Gorgeous Grey Net Lehenga Choli</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹3999</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://lovelyweddingmall.com/cache/large/product/6375/1.jpg" alt="">
+                <div class="description">
+                    <h5>Floral Pink Net Embroidered Pink Lehenga Choli</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹4200</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="https://www.fashionbazar365.com/wp-content/uploads/2022/11/5-22.jpg" alt="">
+                <div class="description">
+                    <h5>Grey Pink Bridal Lehenga Woman Silk Designer Heavy Chaniya Choli Net Dupatta</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹8999</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-eye view"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="banner" class="section-m1">
+        <h4>Repair Service</h4>
+        <h2>Up to <span>70% off</span> - All kurtas</h2>
+        <button class="normal">Explore More</button>
+    </section>
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy deals</h4>
+            <h2>Buy 1 Get 1 Free</h2>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="banner-box2">
+            <h4>Spring/Summer</h4>
+            <h2>Upcomming Season</h2>
+            <button class="btn">Collection</button>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="https://seeklogo.com/images/W/wish-new-2022-logo-C4BBBD2AF6-seeklogo.com.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>VV95+V5V, Mangalore Gate, Kankanady Bypass, Mangaluru, Karnataka 575002</p>
+            <p><strong>Mobile No: </strong>9906570895</p>
+            <p><strong>Hours: </strong>10AM - 7AM</p>
+        </div>
+        <div class="col">
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+       
+
+
+    </footer>
+    <!-- <script src="ecom.js" class="section-p1"></script> -->
+    <script>
+        const Items = [
+            {
+                id: 1,
+                name: "Red Cotton A-Line Kurta",
+                image: "https://storage.sg.content-cdn.io/cdn-cgi/image/width=1000,height=1500,quality=75,format=auto/in-resources/6c57599f-2c43-4c82-806a-e07c3410f5d3/Images/ProductImages/Source/phulkari15795ss20red-1.jpg",
+                rating: 3,
+                count: 0,
+                price: "₹400"
+            },
+            {
+                id: 2,
+                name: "Pink Design Pathani Kurta",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi71RKq2ml489p7kTR99PP2WKQJxER2a6b1UqIcWkWzn5Mc_RrV5Wh8JXytulcgHsSv34&usqp=CAU",
+                rating: 5,
+                count: 0,
+                price: "₹600"
+            },
+            {
+                id: 3,
+                name: "Pure Cotton Material Kurta",
+                image: "https://5.imimg.com/data5/ECOM/Default/2022/12/MB/XS/PQ/14340039/1656818325227-ctn-red-originnm80prcnt-250x250.jpg",
+                rating: 2,
+                count: 0,
+                price: "₹560"
+            },
+            {
+                id: 4,
+                name: "Pink Cotton Straight Kurta",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEI65SZHcGD592v7eAiNDW_Z-0asQzIy9mtu0i_OK6oTBCAvVDORIKzcq0D1ZBdayb7VE&usqp=CAU",
+                rating: 4,
+                count: 0,
+                price: "₹450"
+            },
+            {
+                id: 5,
+                name: "Pink Cotton Printed Kurta",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmp6SBlrUiNAZn7PRa5ewZW1Kj2hVBMNPzRBJ2mjrQLEwnVeDnmB9upZNJ2W89PgXNl3M&usqp=CAU",
+                rating: 2,
+                count: 0,
+                price: "₹800"
+            },
+            {
+                id: 6,
+                name: "Women Printed Ethnic Dress",
+                image: "https://rukminim2.flixcart.com/image/450/500/xif0q/kurta/i/d/n/3xl-nsg-358-saabhi-original-imaghrb4t4wudgfp.jpeg?q=90&crop=false",
+                rating: 5,
+                count: 0,
+                price: "₹425"
+            },
+            {
+                id: 7,
+                name: "Women Embroidered Kurta",
+                image: "https://rukminim1.flixcart.com/image/832/832/kzzw5u80/kurta/1/r/q/xxl-new-heartloom-original-imagbvmdjs7fkftk.jpeg?q=70",
+                rating: 4,
+                count: 0,
+                price: "₹395"
+            },
+            {
+                id: 8,
+                name: "Yellow Embroidered Kurti",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfY4B0OIiMKS-Tfju0tJ296EYMkgU_1AuLCif6Hznibt_Y2_5LKMqonus-yN5239cIIc&usqp=CAU",
+                rating: 3,
+                count: 0,
+                price: "₹999"
+            }
+        ];
+
+        const itemContainer = document.querySelector('.product-container');
+
+        Items.forEach(item => {
+            const prodContainer = document.createElement('div');
+            prodContainer.classList.add('product');
+
+            let starHTML = "";
+            for (let i = 0; i < item.rating; i++) {
+                starHTML += '<i class="fa-solid fa-star"></i>';
+            }
+
+            prodContainer.innerHTML = `
+                    <img src="${item.image}" alt="">
+                    <div class="description">
+                        <h5>${item.name}</h5>
+                        <div class="star">${starHTML}</div>
+                        <h4>${item.price}</h4>
+                    </div>
+                    <div id="add">
+                    <button type="button" id="addToCart">ADD TO CART</button>
+                    <button type="button" id="viewButton">view</button>
+                    </div>
+                    `;
+
+            const cart = prodContainer.querySelector('#addToCart');
+            const viewButton = prodContainer.querySelector('#viewButton');
+            let cartqty=0;
+            cart.addEventListener('click', () => {
+                item.count = item.count+1;
+                for(let x=0; x<Items.length; x++)
+                {
+                    if(Items[i].count != 0)
+                    {
+                        cartqty = cartqty + Items[i].count;
+                    }
+                }
+                //
+                document.querySelector('#cartno').innerHTML = cartqty;
+            });
+            viewButton.addEventListener('click', () => {
+
+               
+                console.log(item)
+
+                 window.location.href = "view.html?name="+item.name+"&img="+item.image+"&rating="+item.rating+"&price="+item.price;
+          
+
+            });
+
+            itemContainer.appendChild(prodContainer);
+
+        });
+    </script>
+</body>
+
+</html>

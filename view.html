@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c391db9fea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="viewsection" >
+        <!-- <h1>dsfdsdfd</h1> -->
+        <div style="display: flex; width: 80%; height: 100vh; justify-content: center; margin: 0 auto; align-items: center; padding: 47px 0; border-radius: 0 0 40px 40px; background: linear-gradient(rgba(246, 240, 240, 0), rgba(246, 240, 240, 0.328),rgba(43, 126, 159, 0.826));">
+            <div id="viewimg" style="width: 47%;">
+            
+            </div>
+            <div id="viewcontent">
+                
+            </div>
+        </div>
+        
+    </section>
+    <script>
+            var params = new URLSearchParams(window.location.search);
+            var productName = params.get('name');
+            var productPrice = params.get('price');
+            var productImage = params.get('img');
+            var productRating = params.get('rating');
+
+            let starHTML = "";
+            for (let i = 0; i < productRating; i++) {
+                starHTML += '<i class="fa-solid fa-star"></i>';
+            }
+
+
+            document.getElementById('viewimg').innerHTML = 
+            `<img style=" width:80%;height:80%" src="${productImage}" alt="">`;
+        
+            document.getElementById('viewcontent').innerHTML =
+                `
+            <div class="description">
+                <h5 style="font-size:2rem">${productName}</h5>
+                <p>avasa</p>
+                <div class="star">
+                    ${starHTML}
+                </div>
+                <h4>${productPrice}</h4>
+                <div id="add">
+                    <button type="button" id="addToCart">ADD TO CART</button>
+                </div>
+            </div>`;
+    </script>
+</body>
+</html>

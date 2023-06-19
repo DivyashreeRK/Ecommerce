@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c391db9fea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img class="logo" src="https://seeklogo.com/images/W/wish-new-2022-logo-C4BBBD2AF6-seeklogo.com.png"
+                alt=""></a>
+        <ul id="navbar">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#detail">About</a></li>
+            <li><a href="#detail">Contact</a></li>
+            <button class="btnLogin">Login</button>
+        </ul>
+
+    </section>
+    <div class="loginForm">
+        <div class="form-box login">
+            <span class="form-close"><i class="fa-solid fa-xmark"></i></span>
+            <h2>Login</h2>
+            <form action="#" name="myForm">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                    <input type="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="forgot">
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button id="LogBtn" type="submit">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <span class="form-close"><i class="fa-solid fa-xmark"></i></span>
+            <h2>Registration</h2>
+            <form action="#" name="myForm2">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button id="LogBtn" type="submit">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>save more with coupons & up to 70% off!</p>
+        <button id="shopBtn">Shop Now</button>
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="feature-box">
+            <img src="https://aokmarketing.com/wp-content/uploads/2017/02/How_To_Offer_Free_Shipping.jpg" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="feature-box">
+            <img src="https://www.nicepng.com/png/detail/230-2303322_order-png-background-image-online-food-ordering-icon.png"
+                alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="feature-box">
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="feature-box">
+            <img src="https://media.istockphoto.com/id/1456618360/photo/nonstop-service-24-hr-concept-businessman-hand-holding-virtual-24-7-with-clock-on-hand-for.webp?b=1&s=170667a&w=0&k=20&c=zFIQbFIjhMdhponIr2Lx9tjU96Uhl6sgr7FvrazCCNw="
+                alt="">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+    <section id="banner" class="section-m1">
+        <h4>Repair Service</h4>
+        <h2>Up to <span>70% off</span> - All kurtas</h2>
+        <button class="normal">Explore More</button>
+    </section>
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy deals</h4>
+            <h2>Buy 1 Get 1 Free</h2>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="banner-box2">
+            <h4>Spring/Summer</h4>
+            <h2>Upcomming Season</h2>
+            <button class="btn">Collection</button>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer id="detail" class="section-p1">
+        <div class="col">
+            <img class="logo" src="https://seeklogo.com/images/W/wish-new-2022-logo-C4BBBD2AF6-seeklogo.com.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>VV95+V5V, Mangalore Gate, Kankanady Bypass, Mangaluru, Karnataka 575002</p>
+            <p><strong>Mobile No: </strong>9906570895</p>
+            <p><strong>Hours: </strong>10AM - 7AM</p>
+        </div>
+        <div class="col">
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+    </footer>
+    <script src="ecom.js" class="section-p1"></script>
+</body>
+
+</html>
